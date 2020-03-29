@@ -21,6 +21,16 @@
                 <h4>Coronavirus</h4>
             </nav>
             <div class="container-fluid">
+                <div class="mb-4" style="background: white !important; padding: 10px">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <h3 class="h3 mb-0 text-gray-800">Welcome {{$ip}} </h3>
+                        </div>
+                        <div class="col-lg-3 text-right">
+                            <h4 class="text-right">Total Users Visited = {{$users}}</>
+                        </div>
+                    </div>
+                </div>
                 <div class="mb-4">
                     <div class="row">
                         <div class="col-lg-9">
